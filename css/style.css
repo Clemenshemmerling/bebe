@@ -1,0 +1,49 @@
+html {
+	font-family: 'Muli';
+}
+
+body {
+  background-color: #7D1935;
+  color: #FDF3E7;
+  margin: 0;
+}
+header {
+  background-color: #C36588;
+  border-bottom: #d1c47f solid 3px;
+  box-shadow: 10px 4px 10px rgba(210, 197, 120, 0.5);
+}
+
+header h1 {
+  font-size: 35px;
+  text-align: center;
+  margin: 0;
+  padding: 30px 0;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+}
+
+.content video {
+  margin-top: 25px;
+  width: 60%;
+  height: 100%;
+  border: solid 3px #FDF3E7;
+}
+.info {
+  display: flex;
+  justify-content: center;
+  font-size: 20px;
+  line-height: 40px;
+}
+
+.info ul {
+  font-family: 'Pacifico';
+  text-align: center;
+  list-style: none;
+  background-color: #FDF3E7;
+  color: #7D1935;
+  width: 55%;
+  padding: 30px;
+}
