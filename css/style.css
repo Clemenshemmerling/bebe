@@ -10,7 +10,7 @@ body {
 header {
   background-color: #C36588;
   border-bottom: #d1c47f solid 3px;
-  box-shadow: 10px 4px 10px rgba(210, 197, 120, 0.5);
+  box-shadow: 3px 4px 2px 0.5px rgba(0,0,0,.2);
 }
 
 header h1 {
@@ -30,6 +30,7 @@ header h1 {
   width: 60%;
   height: 100%;
   border: solid 3px #FDF3E7;
+  box-shadow: 3px 4px 2px 0.5px rgba(0,0,0,.2);
 }
 .info {
   display: flex;
@@ -39,6 +40,7 @@ header h1 {
 }
 
 .info ul {
+  box-shadow: 3px 4px 2px 0.5px rgba(0,0,0,.2);
   font-family: 'Pacifico';
   text-align: center;
   list-style: none;
